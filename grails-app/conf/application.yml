@@ -68,6 +68,8 @@ grails:
     asset:
         babel:
             enabled: true
+            processJsFiles: true
+
 ---
 hibernate:
     cache:
