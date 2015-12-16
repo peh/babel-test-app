@@ -67,7 +67,8 @@ grails:
                 staticparts: none
     asset:
         babel:
-            enabled: true
+            enabled: false
+
 ---
 hibernate:
     cache:
