@@ -38,6 +38,12 @@ ext {
 assets {
     minifyJs = true
     minifyCss = true
+
+    configOptions = [
+        babel: [
+            enabled: false
+        ]
+    ]
 }
 
 repositories {
