@@ -10,7 +10,6 @@ buildscript {
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
         classpath "org.grails:grails-gradle-plugin:$grailsVersion"
         classpath 'com.bertramlabs.plugins:asset-pipeline-gradle:2.6.9'
-        classpath "net.errbuddy.plugins:babel-asset-pipeline:1.4.3"
         classpath "org.grails.plugins:hibernate:4.3.10.5"
     }
 }
@@ -76,6 +75,8 @@ dependencies {
     compile "org.grails.plugins:scaffolding"
 
     runtime "org.grails.plugins:asset-pipeline"
+    assets "net.errbuddy.plugins:babel-asset-pipeline:1.4.3"
+
 
     testCompile "org.grails:grails-plugin-testing"
     testCompile "org.grails.plugins:geb"
