@@ -1,7 +1,9 @@
+'use strict';
+
 class Foo {
 	bar() {
 		return "foo"
 	}
 }
 
-let foo = new Foo()
+var foo = new Foo()
