@@ -119,5 +119,7 @@
                 </ul>
             </div>
         </div>
+        <asset:javascript src="foo.es6.js"/>
     </body>
+
 </html>

@@ -40,7 +40,10 @@ assets {
     configOptions = [
         babel: [
             enabled: true,
+            processor: 'node',
             processJsFiles: true,
+            nodePath: '/Users/philipp/.nvm/versions/node/v5.0.0/bin/node',
+            browserifyPath: 'node_modules/browserify/bin/cmd.js',
             options: [
                 blacklist: ['useStrict'],
                 loose: 'all'
@@ -75,7 +78,7 @@ dependencies {
     compile "org.grails.plugins:scaffolding"
 
     runtime "org.grails.plugins:asset-pipeline"
-    assets "net.errbuddy.plugins:babel-asset-pipeline:1.4.3"
+    assets 'net.errbuddy.plugins:babel-asset-pipeline:2.0.0-SNAPSHOT'
 
 
     testCompile "org.grails:grails-plugin-testing"

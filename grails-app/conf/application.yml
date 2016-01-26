@@ -65,9 +65,17 @@ grails:
                 scriptlets: html
                 taglib: none
                 staticparts: none
-    asset:
+    assets:
         babel:
-            enabled: true
+            enabled: true,
+            processor: 'node'
+            processJsFiles: true
+            nodePath: '/Users/philipp/.nvm/versions/node/v5.0.0/bin/node'
+            browserifyPath: 'node_modules/browserify/bin/cmd.js'
+            options:
+                blacklist: ['useStrict']
+                loose: 'all'
+
 ---
 hibernate:
     cache:

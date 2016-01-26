@@ -1,9 +1,7 @@
-'use strict';
+const lodash = require('lodash');
 
-class Foo {
+export default class Foo {
 	bar() {
-		return "foo"
+		return "fooab"
 	}
 }
-
-var foo = new Foo()
