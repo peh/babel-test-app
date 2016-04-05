@@ -1,8 +1,6 @@
-import Foo from './foo.es6.js'
 import {each} from 'lodash'
-let foo = new Foo()
-console.log(foo.bar())
+import React from 'react'
+import ReactDOM from 'react-dom'
+import TestComponent from './test-component.js'
 
-each(['1', '2', '3'], (num)=>{
-    console.log(num)
-})
+ReactDOM.render(<TestComponent />, document.getElementById('test'));

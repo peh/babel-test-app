@@ -68,14 +68,8 @@ grails:
     assets:
         babel:
             enabled: true,
-            processor: 'node'
+            processor: 'webpack-dev-server'
             processJsFiles: true
-            nodePath: '/Users/philipp/.nvm/versions/node/v5.0.0/bin/node'
-            browserifyPath: 'node_modules/browserify/bin/cmd.js'
-            options:
-                blacklist: ['useStrict']
-                loose: 'all'
-
 ---
 hibernate:
     cache:

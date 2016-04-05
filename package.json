@@ -22,5 +22,9 @@
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
     "lodash": "^4.0.1"
+  },
+  "dependencies": {
+    "gradle-babel-asset-pipeline-helper": "^1.0.2",
+    "react-dom": "^0.14.8"
   }
 }
