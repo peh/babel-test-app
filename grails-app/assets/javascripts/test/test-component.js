@@ -10,7 +10,7 @@ export default class TestComponent extends React.Component {
     }
 
     getIncr() {
-        return 1
+        return 2
     }
 
     render() {
